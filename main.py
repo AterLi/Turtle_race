@@ -19,7 +19,6 @@ for i in range(len(colors)):
     all_turtles.append(timy)
 
 
-
 while game_on:
     for turtle in all_turtles:
         turtle.forward(random.randint(7, 20))
